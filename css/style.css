@@ -1,3 +1,11 @@
+.container {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 500px;
+}
+
 .wrap1,
 .wrap2,
 .wrap3 {
@@ -8,16 +16,16 @@
 }
 
 .wrap1 {
-  background-color: rgb(204, 157, 165);
+  background-color: red;
 }
 .wrap2 {
-  background-color: rgb(72, 72, 138);
+  background-color: blue;
   top: 60px;
   left: 60px;
   z-index: 3;
 }
 .wrap3 {
-  background-color: rgb(54, 107, 54);
+  background-color: greenyellow;
   top: 120px;
   left: 120px;
 }
