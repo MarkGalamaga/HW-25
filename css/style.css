@@ -1,0 +1,23 @@
+.wrap1,
+.wrap2,
+.wrap3 {
+  width: 100px;
+  height: 100px;
+  border: none;
+  position: absolute;
+}
+
+.wrap1 {
+  background-color: rgb(204, 157, 165);
+}
+.wrap2 {
+  background-color: rgb(72, 72, 138);
+  top: 60px;
+  left: 60px;
+  z-index: 3;
+}
+.wrap3 {
+  background-color: rgb(54, 107, 54);
+  top: 120px;
+  left: 120px;
+}
